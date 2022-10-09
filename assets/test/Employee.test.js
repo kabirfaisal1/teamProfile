@@ -3,12 +3,13 @@ const Employee = require('../lib/Employee');
 const employee = new Employee('kabir', 10, 'kabir.faisal@gmail.com');
 
 // creates employee object 
-describe('test employee', ()=>{
+describe('verify employee', ()=>{
 it('creates an employee object', () => {
    
     expect(employee.name).toEqual(expect.any(String));
     expect(employee.id).toEqual(expect.any(Number));
     expect(employee.email).toEqual(expect.any(String));
+   
 });
 
 // gets id from getId() 

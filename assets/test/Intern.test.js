@@ -1,11 +1,9 @@
 // using Intern constructor 
 const Intern = require('../lib/Intern');
-const intern = new Employee('kabir', 10, 'kabir.faisal@gmail.com','SFSU');
+const intern = new Intern('kabir', 10, 'kabir.faisal@gmail.com','CUNY');
 // creating intern object  
-describe('it employee', ()=>{
+describe('verify Intern', ()=>{
 it('creates an Intern object', () => {
-
-    
     expect(intern.school) .toEqual(expect.any(String));
 });
 

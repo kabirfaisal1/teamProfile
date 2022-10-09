@@ -1,9 +1,9 @@
 // using Manager constructor 
 const Manager = require('../lib/Manager');
 
-const manager = new Employee('kabir', 10, 'kabir.faisal@gmail.com');
+const manager = new Manager('kabir', 10, 'kabir.faisal@gmail.com', 14);
 // creating manager object  
-describe('it employee', ()=>{
+describe('verify Manager', ()=>{
 it('creates an Manager object', () => {
     
     expect(manager.officeNumber).toEqual(expect.any(Number));
