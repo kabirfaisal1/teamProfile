@@ -48,9 +48,9 @@ THEN I exit the application, and the HTML is generated
 
 ## [Application Invoked](#table-of-contents)
 ```
-node <testName.js>
+node [your node app]
 or
-nodemon <testName.js>
+nodemon [your node app]
 ```
 
 ## [Test Case](#table-of-contents)
