@@ -6,7 +6,10 @@ This is a  Node.js command-line application that takes in information about empl
   * [UserStory](#userstory)
   * [Acceptance Criteria](#acceptance-criteria)
   * [Application Invoked](#application-invoked)
+  * [Test Invoked](#test-invoked)
   * [Test Case](#test-case)
+  * [Screenshots](#screenshots)
+    * [TDD](#tdd)
   * [Nice to Have](#nice-to-have)
  
 ## [Deployed URL](#table-of-contents)
@@ -52,8 +55,27 @@ node [your node app]
 or
 nodemon [your node app]
 ```
+## [Test Invoked](#table-of-contents)
+```
+npm [your test file]
+```
 
 ## [Test Case](#table-of-contents)
+1. Verify I can create an employee object
+1. Verify I can create an employee object
+1. Verify I can create an employee object
+1. Verify I can create an employee object
+1. Verify I can create an employee object
+1. Verify I can create an employee object
+1. Verify I can create an employee object
+
+## [Screenshots](#table-of-contents)
+### [TDD](#table-of-contents)
+1. Before building the constructor 
+![Image at TDD Fail.](./assets/image/tdd_fail.png)
+
+1. After building the constructor 
+![Image at TDD Pass.](./assets/image/tdd_pass.png)
 ## [Nice to Have](#table-of-contents)
 ```
 npm install -g nodemon

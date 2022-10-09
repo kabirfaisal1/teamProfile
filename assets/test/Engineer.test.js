@@ -1,8 +1,8 @@
 // using Engineer constructor 
 const Engineer = require('../lib/Engineer');
-const employee = new Employee('kabir', 10, 'kabir.faisal@gmail.com', 'kabirfaisal1');
+const engineer = new Engineer('kabir', 10, 'kabir.faisal@gmail.com', 'kabirfaisal1');
 // creating engineer object  
-describe('it employee', ()=>{
+describe('verify Engineer', ()=>{
 it('creates an Engineer object', () => {
 
     expect(engineer.github) .toEqual(expect.any(String));
