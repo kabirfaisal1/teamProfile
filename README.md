@@ -10,6 +10,7 @@ This is a  Node.js command-line application that takes in information about empl
   * [Test Case](#test-case)
   * [Screenshots](#screenshots)
     * [TDD](#tdd)
+    * [Inquire Display](#inquire-display)
   * [Nice to Have](#nice-to-have)
  
 ## [Deployed URL](#table-of-contents)
@@ -61,23 +62,21 @@ npm [your test file]
 ```
 
 ## [Test Case](#table-of-contents)
-1. Verify I can create an employee object
-1. Verify I can create an employee object
-1. Verify I can create an employee object
-1. Verify I can create an employee object
-1. Verify I can create an employee object
-1. Verify I can create an employee object
-1. Verify I can create an employee object
+1. Verify manager enter their name, ID, Email
+2. Verify manager enter their name, ID, invalid Email
+3. Verify manager failed to enter their name, id or email
+4. Verify manager entered employee/inters name all information's 
+5. Verify manager failed to enter employee gitHub
+6. Verify manager did select yes to add another employee
+7. Verify manager did not select yes to add another employee
 
 ## [Screenshots](#table-of-contents)
 ### [TDD](#table-of-contents)
 1. Before building the constructor 
 ![Image at TDD Fail.](./assets/image/tdd_fail.png)
 
-1. After building the constructor 
+2. After building the constructor 
 ![Image at TDD Pass.](./assets/image/tdd_pass.png)
-## [Nice to Have](#table-of-contents)
-```
-npm install -g nodemon
-https://www.npmjs.com/package/nodemon
-```
+
+### [Inquire Display](#table-of-contents)
+![Image at console display Inquire](./assets/image/tdd_pass.png)
