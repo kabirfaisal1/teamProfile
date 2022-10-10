@@ -73,10 +73,12 @@ npm [your test file]
 ## [Screenshots](#table-of-contents)
 ### [TDD](#table-of-contents)
 1. Before building the constructor 
+
 ![Image at TDD Fail.](./assets/image/tdd_fail.png)
 
 2. After building the constructor 
+
 ![Image at TDD Pass.](./assets/image/tdd_pass.png)
 
 ### [Inquire Display](#table-of-contents)
-![Image at console display Inquire](./assets/image/tdd_pass.png)
+<!-- ![Image at console display Inquire](./assets/image/tdd_pass.png) -->
