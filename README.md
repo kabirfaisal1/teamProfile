@@ -81,3 +81,4 @@ npm [your test file]
 
 ### [Inquire Display](#table-of-contents)
 <!-- ![Image at console display Inquire](./assets/image/tdd_pass.png) -->
+![Image at node questions](./assets/image/nodequestions.png)

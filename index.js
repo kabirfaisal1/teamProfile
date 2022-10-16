@@ -43,6 +43,7 @@ const addManager = () => {
             }
         },
         {
+           
             type: 'input',
             name: 'email',
             message: "Please enter the manager's email.",
