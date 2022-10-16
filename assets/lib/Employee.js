@@ -1,10 +1,10 @@
 // employee constructor 
 class Employee {
-    constructor (name, id, email,employee) {
+    constructor (name, id, email) {
         this.name = name;
         this.id = id;
         this.email = email 
-        this.employee = employee 
+     
     }
 
     // returning name from input
@@ -21,11 +21,11 @@ class Employee {
     getEmail () {
         return this.email;
     }
+         // override employee role to engineer
+         getRole () {
+            return "Engineer";
+        }
 
-    // returning employee type 
-    getRole () {
-        return this.employee; 
-    }
 };
 
 // to be exported 

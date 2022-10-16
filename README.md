@@ -2,6 +2,7 @@
 This is a  Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. This project demonstrates use of OOP and TDD using Jest. 
 # Table-of-Contents
   * [Deployed URL](#deployed-url)
+  * [Git Repo](#git-repo)
   * [Dependency](#dependency)
   * [UserStory](#userstory)
   * [Acceptance Criteria](#acceptance-criteria)
@@ -11,16 +12,29 @@ This is a  Node.js command-line application that takes in information about empl
   * [Screenshots](#screenshots)
     * [TDD](#tdd)
     * [Inquire Display](#inquire-display)
-  * [Nice to Have](#nice-to-have)
+  * [Video](#video)
+
  
 ## [Deployed URL](#table-of-contents)
 ```
-    TBD
+    https://kabirfaisal1.github.io/teamProfile/
 ```
+## [Git Repo](#table-of-contents)
+```
+   https://github.com/kabirfaisal1/teamProfile.git
+```
+
+## [Video](#table-of-contents)
+```
+https://vimeo.com/760810147
+
+```
+
 ## [Dependency](#table-of-contents)
 ```
-    1. node.js (npm install -g npm) on your system
-    2. npm i inquirer@8.2.4 (on the project)
+    1. jest 
+    2. node.js (npm install -g npm) on your system
+    3. npm i inquirer@8.2.4 (on the project)
 ```
 ## [User Story](#table-of-contents)
 ```
@@ -53,8 +67,6 @@ THEN I exit the application, and the HTML is generated
 ## [Application Invoked](#table-of-contents)
 ```
 node [your node app]
-or
-nodemon [your node app]
 ```
 ## [Test Invoked](#table-of-contents)
 ```
@@ -82,3 +94,5 @@ npm [your test file]
 
 ### [Inquire Display](#table-of-contents)
 <!-- ![Image at console display Inquire](./assets/image/tdd_pass.png) -->
+![Image at node questions](./assets/image/nodequestions.png)
+
