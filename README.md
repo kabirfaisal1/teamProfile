@@ -19,8 +19,9 @@ This is a  Node.js command-line application that takes in information about empl
 ```
 ## [Dependency](#table-of-contents)
 ```
-    1. node.js (npm install -g npm) on your system
-    2. npm i inquirer@8.2.4 (on the project)
+    1. jest 
+    2. node.js (npm install -g npm) on your system
+    3. npm i inquirer@8.2.4 (on the project)
 ```
 ## [User Story](#table-of-contents)
 ```
@@ -53,8 +54,6 @@ THEN I exit the application, and the HTML is generated
 ## [Application Invoked](#table-of-contents)
 ```
 node [your node app]
-or
-nodemon [your node app]
 ```
 ## [Test Invoked](#table-of-contents)
 ```

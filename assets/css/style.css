@@ -4,7 +4,8 @@
 
 #header_navbar {
     background:  #B1B2FF;
-  
+    font-size: xx-large;
+ 
 }
 
 
@@ -16,10 +17,7 @@ body {
     color: #0F3460;
     font-size: xx-large;
     text-align: center;
-    margin-left: 300px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-right: 300px;
+   margin: auto;
 }
 
 
@@ -45,4 +43,8 @@ body {
 #intern_card, #interncard_header{
     background-color: #DFD3C3;
     border-radius: 25px;
+}
+
+.card{
+    margin: 20px;
 }
