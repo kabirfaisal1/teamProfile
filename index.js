@@ -1,6 +1,7 @@
+// link to page creation
+const generateHTML = require('./assets/src/generateHTML');
 
-
-// team profiles /assets/lib/Manager.js
+// team profiles
 const managerConstructor = require('./assets/lib/Manager');
 const engineerConstructor = require('./assets/lib/Engineer');
 const internConstructor = require('./assets/lib/Intern'); 
@@ -196,7 +197,7 @@ const addEmployee = () => {
 
 // function to generate HTML page file using file system 
 const writeFile = data => {
-    fs.writeFile('./dist/index.html', data, err => {
+    fs.writeFile('./index.html', data, err => {
         // if there is an error 
         if (err) {
             console.log(err);
@@ -212,7 +213,7 @@ const writeFile = data => {
 addManager()
   .then(addEmployee)
   .then(teamArray => {
-    return teamArray;
+    return generateHTML(teamArray);
   })
   .then(pageHTML => {
     return writeFile(pageHTML);
