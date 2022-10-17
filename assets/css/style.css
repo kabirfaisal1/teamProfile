@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+#siteLog{
+    margin: 20px;
+    
+}
 
 #header_navbar {
     background:  #B1B2FF;

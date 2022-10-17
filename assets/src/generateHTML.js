@@ -129,6 +129,11 @@ const buildTeamPage = function (employeeCards) {
   </head>
   <body>
         <header>
+            <a class="navbar-brand" href="https://kabirfaisal1.github.io/MyPortfolio/">
+                <img src="../teamProfile/assets/image/avatar.png"
+                width="80" height="80" alt="this my
+                avatar" id="siteLog" target="_blank" rel="noopener noreferrer"> 
+            </a>
             <nav class="navbar navbar-expand-lg" id="header_navbar">
                 <div class="navbar-brand mb-0 h1 w-100 text-center"id="pageTitle">Team Profile
                 </div>
